@@ -4,7 +4,7 @@ c.qt.chromium.low_end_device_mode = 'always'
 
 c.qt.chromium.experimental_web_platform_features = 'always'
 
-c.qt.args = ['ignore-gpu-blocklist', 'enable-gpu-rasterization', 'force-dark-mode']
+c.qt.args = ['ignore-gpu-blocklist', 'enable-gpu-rasterization', 'force-dark-mode', 'enable-accelerated-video-decode']
 
 catppuccin.setup(c, 'mocha', True)
 
